@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="源文件">
+      <UniqueIdentifier>{492f03ab-0786-4343-b416-39ad7f42d044}</UniqueIdentifier>
+      <Extensions>cpp;c;def</Extensions>
+    </Filter>
+    <Filter Include="头文件">
+      <UniqueIdentifier>{d6c84b5c-70a1-479a-9c9f-6300e8a3b167}</UniqueIdentifier>
+      <Extensions>hpp;h</Extensions>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\Src\HookSSDT.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\Src\HookSSDT.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>

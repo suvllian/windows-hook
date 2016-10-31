@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 14
 VisualStudioVersion = 14.0.25420.1
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "HOOK", "HOOK\HOOK.vcxproj", "{1F0638E0-AA84-4091-94AE-27275E78456B}"
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "HookSSDT", "HookSSDT\HookSSDT.vcxproj", "{2D6DE935-85B7-426D-BF7A-EB28742A6F96}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -11,16 +11,22 @@ Global
 		Debug|x86 = Debug|x86
 		Release|x64 = Release|x64
 		Release|x86 = Release|x86
+		SYS|x64 = SYS|x64
+		SYS|x86 = SYS|x86
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{1F0638E0-AA84-4091-94AE-27275E78456B}.Debug|x64.ActiveCfg = Debug|x64
-		{1F0638E0-AA84-4091-94AE-27275E78456B}.Debug|x64.Build.0 = Debug|x64
-		{1F0638E0-AA84-4091-94AE-27275E78456B}.Debug|x86.ActiveCfg = Debug|Win32
-		{1F0638E0-AA84-4091-94AE-27275E78456B}.Debug|x86.Build.0 = Debug|Win32
-		{1F0638E0-AA84-4091-94AE-27275E78456B}.Release|x64.ActiveCfg = Release|x64
-		{1F0638E0-AA84-4091-94AE-27275E78456B}.Release|x64.Build.0 = Release|x64
-		{1F0638E0-AA84-4091-94AE-27275E78456B}.Release|x86.ActiveCfg = Release|Win32
-		{1F0638E0-AA84-4091-94AE-27275E78456B}.Release|x86.Build.0 = Release|Win32
+		{2D6DE935-85B7-426D-BF7A-EB28742A6F96}.Debug|x64.ActiveCfg = SYS|x64
+		{2D6DE935-85B7-426D-BF7A-EB28742A6F96}.Debug|x64.Build.0 = SYS|x64
+		{2D6DE935-85B7-426D-BF7A-EB28742A6F96}.Debug|x86.ActiveCfg = SYS|Win32
+		{2D6DE935-85B7-426D-BF7A-EB28742A6F96}.Debug|x86.Build.0 = SYS|Win32
+		{2D6DE935-85B7-426D-BF7A-EB28742A6F96}.Release|x64.ActiveCfg = SYS|x64
+		{2D6DE935-85B7-426D-BF7A-EB28742A6F96}.Release|x64.Build.0 = SYS|x64
+		{2D6DE935-85B7-426D-BF7A-EB28742A6F96}.Release|x86.ActiveCfg = SYS|Win32
+		{2D6DE935-85B7-426D-BF7A-EB28742A6F96}.Release|x86.Build.0 = SYS|Win32
+		{2D6DE935-85B7-426D-BF7A-EB28742A6F96}.SYS|x64.ActiveCfg = SYS|x64
+		{2D6DE935-85B7-426D-BF7A-EB28742A6F96}.SYS|x64.Build.0 = SYS|x64
+		{2D6DE935-85B7-426D-BF7A-EB28742A6F96}.SYS|x86.ActiveCfg = SYS|Win32
+		{2D6DE935-85B7-426D-BF7A-EB28742A6F96}.SYS|x86.Build.0 = SYS|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
